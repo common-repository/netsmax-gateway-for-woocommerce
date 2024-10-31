@@ -1,0 +1,596 @@
+# Copyright (C) 2024 Netsmax
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Netsmax Gateway For Woocommerce 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/netsmax-gateway-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-23T11:07:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: netsmax-gateway-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: netsmax-gateway-for-woocommerce.php
+msgid "Netsmax Gateway For Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: netsmax-gateway-for-woocommerce.php
+msgid "https://api.netsmax.com/saas/woocommerce/apps/detail"
+msgstr ""
+
+#. Description of the plugin
+#: netsmax-gateway-for-woocommerce.php
+msgid "Extends WooCommerce with an Netsmax gateway payment. Manage your transactions on wordpress more conveniently."
+msgstr ""
+
+#. Author of the plugin
+#: netsmax-gateway-for-woocommerce.php
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:161
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:556
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:589
+#: resources/js/blocks/base/constants.js:2
+msgid "Netsmax"
+msgstr ""
+
+#. Author URI of the plugin
+#: netsmax-gateway-for-woocommerce.php
+msgid "https://www.netsmax.com"
+msgstr ""
+
+#: includes/blocks/netsmax_gateway_for_woocommerce_blocks-support.php:93
+msgid "Confirm payment"
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:116
+msgid "Unable to toggle gateway Enabled/Disabled try again"
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:130
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:144
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:981
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1129
+msgid "Unable to process payment try again"
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:165
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:185
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:201
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:215
+msgid "Operation failed! Please try again."
+msgstr ""
+
+#. Translators: 1: the is error message
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:257
+msgid "Api response content json_decode is error: %1$s "
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:294
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:297
+msgid "Unable to establish network connection! Please try again."
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:338
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:410
+msgid "Request Error."
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:342
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:414
+msgid "Mid Error."
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:348
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:372
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:427
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:451
+msgid "Data Is Null."
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:353
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:432
+msgid "Sign Error."
+msgstr ""
+
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:360
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:439
+msgid "Parsing failed: data is empty. Or it is not an array."
+msgstr ""
+
+#. Translators: 1: the is error message
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:366
+#: includes/client/netsmax_gateway_for_woocommerce_api-client.php:445
+msgid "Order Api Notify Data Is Error: %1$s "
+msgstr ""
+
+#. translators: 1: is woocommerce install link
+#: includes/netsmax_gateway_for_woocommerce.php:77
+msgid "Netsmax requires WooCommerce to be installed and active. Click <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\">here</a> to install WooCommerce."
+msgstr ""
+
+#. Translators: 1: is netsmax version, 2: is WooCommerce Oldest supported version, 3: is WooCommerce The current version
+#: includes/netsmax_gateway_for_woocommerce.php:92
+msgid "Netsmax %1$s requires WooCommerce %2$s or greater to be installed and active. WooCommerce %3$s is no longer supported."
+msgstr ""
+
+#. Translators: 1: is netsmax version, 2: is PHP Oldest supported version, 3: is The PHP version
+#: includes/netsmax_gateway_for_woocommerce.php:110
+msgid "Netsmax %1$s The minimum PHP version required for this plugin is %2$s. You are running %3$s."
+msgstr ""
+
+#: includes/netsmax_gateway_for_woocommerce.php:133
+msgid "View Netsmax Settings"
+msgstr ""
+
+#: includes/netsmax_gateway_for_woocommerce.php:135
+msgid "Settings"
+msgstr ""
+
+#. translators: 1: is netsmax link url
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:164
+msgid "Netsmax provides merchants with the tools and services they need to accept MasterCard, Visa, Verve and local online payments. You will need to <a href=\"%1$s\" target=\"_blank\">Sign up/Sign in</a> for a account, and get your API key before using."
+msgstr ""
+
+#. translators: 1: is Terms of Service link url, 2: is Privacy policy link url.
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:169
+msgid "<br />By clicking \"Install\", you agree to the <a href=\"%1$s\" target=\"_blank\">Sign Up Terms</a> and <a href=\"%2$s\" target=\"_blank\">Data and Privacy</a>."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:267
+msgid "Transaction NO"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:273
+msgid "Netsmax Transaction Reference"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:296
+msgid "Every Three Minute"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:301
+msgid "Every Five Minute"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:306
+msgid "Every Ten Minute"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:311
+msgid "Every Thirty Minute"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:408
+msgid "Enabling/disabling application switch operation timed out, please retry processing."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:452
+msgid "Enabling/disabling application switch operation timed out, please retry processing"
+msgstr ""
+
+#. translators: 1: is plugin settings link address
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:497
+msgid "Please enter your merchant details <a href=\"%1$s\">here</a> to use this plugin."
+msgstr ""
+
+#. translators: 1: is Transaction webhook url, 2: is Refund webhook url
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:559
+msgid "Optional: To avoid situations where bad network makes it impossible to verify transactions, You can provide the following webhook URL to netsmax. Transaction:[ %1$s ]  Refund: [ %2$s ] "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:578
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:579
+msgid "Enable Gateway"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:581
+msgid "Enable payment option on the checkout page."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:586
+msgid "Title"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:588
+msgid "This controls the payment method title which the user sees during checkout."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:593
+msgid "Description"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:595
+msgid "This controls the payment method description which the user sees during checkout."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:596
+msgid "Make payment using your credit cards."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:600
+msgid "Test mode"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:601
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:603
+msgid "Test mode enables you to test payments merchant account before going live. Once the LIVE MODE is enabled on your gateway account uncheck this."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:608
+msgid "Payment Option"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:610
+msgid "Popup: The payment popup on the page.<br />Redirect: Will redirect the customer to gateway to make payment.<br />Inline: Entering payment information after selecting a payment method."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:614
+msgid "Popup"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:615
+msgid "Redirect"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:616
+msgid "Inline"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:620
+msgid "Test MID"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:622
+msgid "Enter your Test MID here."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:626
+msgid "Test Merchant Key"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:628
+msgid "Enter your Test Merchant Key here"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:632
+msgid "Live MID"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:634
+msgid "Enter your Live MID here."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:638
+msgid "Live Merchant Key"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:640
+msgid "Enter your Live Merchant Key here."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:644
+msgid "Autocomplete Order"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:645
+msgid "Autocomplete Order After Payment"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:648
+msgid "If enabled, the order will be marked as complete after successful payment"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:653
+msgid "Remove Cancel Order & Restore Cart Button"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:654
+msgid "Remove the cancel order & restore cart button on the pay for order page"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:660
+msgid "Refund synced to Netsmax"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:661
+msgid "When canceling a paid order, a refund request will be automatically initiated to gateway."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:667
+msgid "Cancel synced to Netsmax"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:668
+msgid "When refunding a paid order, a refund request will be automatically initiated to gateway."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:674
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:676
+msgid "Enabled logging of gateway interactions can be enabled in test mode.(To view the logs, please go to [WooCommerce>status>logs] to view the debugging logs.)"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:680
+msgid "Server ID"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:682
+msgid "If your region is unable to use our default interface server, please contact customer service to obtain the \"Service ID\" for your region and fill it in here."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:726
+msgid "Failed to establish network connection! Please try again later."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:795
+msgid "Unable to establish network connection or network connection timeout! Please try again later."
+msgstr ""
+
+#. Translators: 1: is method title
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:814
+msgid "%1$s: payment error!"
+msgstr ""
+
+#. Translators: 1: Failure code,  2: failure reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:836
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1058
+msgid "Payment failed! Failure code: %1$s, failure reason: %2$s."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:921
+msgid "Payment link has expired."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:961
+msgid "In order payment processing, it does not indicate successful payment."
+msgstr ""
+
+#. Translators: 1: error code,  2: error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:987
+msgid "(%1$s) Payment failed! Reason: %2$s"
+msgstr ""
+
+#. Translators: 1: error code,  2: error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:997
+msgid "(%1$s) Payment exception! Reason: %2$s"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1247
+msgid "Thank you for your order, please click the button below to pay with payment."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1247
+msgid "Pay Now"
+msgstr ""
+
+#. Translators: 1: is redirect payment Link,
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1250
+msgid "Or click <a href=\"%1$s\" class=\"netsmax-gateway-for-woocommerce-payment-redirect\" id=\"netsmax-gateway-for-woocommerce-payment-redirect\">here</a> to redirect to payment."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1254
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1321
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1989
+msgid "Return Code Error."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1327
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1998
+msgid "Transaction No Error."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1331
+msgid "Payment Status Error."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1336
+msgid "Transaction Id Error."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1342
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2008
+msgid "Order Is Null."
+msgstr ""
+
+#. Translators: 1: method title
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1366
+msgid "%1$s order payment notification processing error"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1397
+msgid "order is trash"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1400
+msgid "order is not pending"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1431
+msgid "order query api response is error: Inconsistent transaction information "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1438
+msgid "order status update is not in."
+msgstr ""
+
+#. Translators: 1: Failure code,  2: failure reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1442
+msgid "Reason:%1$s-%2$s"
+msgstr ""
+
+#. Translators: 1: is method title,  2: is amount, 3: is order transaction id
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1453
+msgid "Payment via %1$s %2$s successful(Transaction Reference: %3$s)."
+msgstr ""
+
+#. Translators: 1: is method title,  2: is payment status, 3: is order transaction id, 4: is reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1470
+msgid "Payment via %1$s %2$s (Transaction Reference: %3$s), %4$s"
+msgstr ""
+
+#. Translators: 1: is a order status
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1480
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1506
+msgid "Order payment failed, this transaction has been %1$s! If you have any questions, please contact customer service. Or place a new order to purchase the product."
+msgstr ""
+
+#. Translators: 1: is method title,  2: is payment status, 3: is order transaction id, 4: is reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1496
+msgid "Payment via %1$s %2$s (Transaction Reference: %3$s), %4$s "
+msgstr ""
+
+#. Translators: 1: is method title, 2: is refund status, 3: is reason, 4: is order transaction id
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1649
+msgid "Refund via %1$s. Refund status is %2$s. Reason: %3$s (Refund Reference: %4$s). "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1686
+msgid "cancel"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1726
+msgid "Cancel payment and abandon the order."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1750
+msgid "Process Refund Error: Please enter the refund amount!"
+msgstr ""
+
+#. Translators: 1: is order id, 2: is method title, 3 is error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1765
+msgid "Order [%1$s] refund and %2$s interaction failed! Reason for error:%3$s "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1798
+msgid "payment settings not found"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1802
+msgid "order not found"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1806
+msgid "The payment method has been changed"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1814
+msgid "The MID has been changed"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1818
+msgid "Order not paid?"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1823
+msgid "Please process the existing refund before creating a new one."
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1831
+msgid "Error: Please enter the refund amount!"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1835
+msgid "Can the refund amount not be greater than the order amount?"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1857
+msgid "Is this order information consistent with the information in Netsmax?"
+msgstr ""
+
+#. Translators: 1: is order transaction id, 2: is site url
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1867
+msgid "Refund for Order ID: #%1$s on %2$s"
+msgstr ""
+
+#. Translators: 1: is method title,  2: refund status, 3: error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1894
+msgid "Connection %1$s refund exception! code: %2$s, error: %3$s "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1897
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1928
+msgid "The server did not respond."
+msgstr ""
+
+#. Translators: 1: is refund fail code,  2: is error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1905
+msgid "Refund exception! code:%1$s,  error: %2$s "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1910
+msgid "Can&#39;t process refund at the moment. Try again later."
+msgstr ""
+
+#. Translators: 1: is method title,  2: is refund status, 3: is error reason
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1925
+msgid "Refund failed on %1$s! code: %2$s, error: %3$s "
+msgstr ""
+
+#. Translators: 1: is method title
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1934
+msgid "Connection %1$s refund exception!"
+msgstr ""
+
+#. Translators: 1: is method title
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1941
+msgid "Refund exception! Please log in to the %1$s merchant system to confirm the refund order information."
+msgstr ""
+
+#. Translators: 1: is method title, 2: is refund amount, 3: is refund status, 4: is error reason, 5: is refund no
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:1954
+msgid "Refund via %1$s %2$s. Refund status is %3$s. Reason: %4$s (Refund Reference: %5$s). "
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2002
+msgid "Refund Status Error."
+msgstr ""
+
+#. Translators: 1: is method title
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2030
+msgid "%1$s order refund notification processing error"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2061
+msgid "PROCESSING"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2062
+msgid "SUCCEEDED"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2063
+msgid "FAILED"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2064
+msgid "CANCELED"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2065
+msgid "EXPIRED"
+msgstr ""
+
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2094
+msgid "You can only use the new card when placing an order."
+msgstr ""
+
+#. Translators: 1: is order quantity, 2: is order there are updates available, 3: is order quantity not updated
+#: includes/services/netsmax_gateway_for_woocommerce_gateway.php:2222
+msgid "Status of synchronized order payment: There are a total of %1$s orders that need to be synchronized, %2$s orders have been synchronized, and %3$s orders have failed to synchronize."
+msgstr ""

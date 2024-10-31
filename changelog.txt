@@ -1,0 +1,33 @@
+=== Netsmax Gateway For Woocommerce Changelog ===
+
+2024-09-23 - version 1.0.4
+
+* Updated to add initialization validation and eliminate errors in session management classes using woocommerce;
+* Some other security code adjustments;
+
+2024-07-23 - version 1.0.3
+
+* Update the logic of cleaning up the configuration data stored by this plugin when uninstalling the plugin;
+* Some other security code adjustments;
+
+2024-07-22 - version 1.0.2
+
+* Display JS source format, turn off JS min conversion;
+* Update HTML, URL, Text security escape;
+* Update security filtering receiving parameters and JSON;
+* Some other non-security code adjustments;
+
+
+2024-07-08 - version 1.0.1
+
+* Refactored JS, Remove some unnecessary JS
+* Update version stability support statement
+* Update the Text Domain name to make it consistent
+* Update PHP file import method and modify class name
+* Update HTML security escape esc_html()
+* Update receiving parameters for security filtering
+
+
+2024-05-14 - version 1.0.0
+
+* Initial version
